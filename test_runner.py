@@ -2,7 +2,7 @@ import unittest
 import ipynb.fs.full.exercises as ex
 
 class TestAssignmentOne(unittest.TestCase):
-    def test_01_say_hello_to_python(self):
+    def test_01_calculate_movie_minutes(self):
         self.assertEqual(ex.calculate_movie_minutes(2, 22), 142)
         self.assertEqual(ex.calculate_movie_minutes(2, 55), 175)
         self.assertEqual(ex.calculate_movie_minutes(2, 32), 152)
